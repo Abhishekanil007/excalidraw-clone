@@ -1,0 +1,88 @@
+
+
+
+
+.heading-btn{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 10px;
+    
+}
+
+.dropdown-btn{
+    margin:1rem;
+}
+
+.dropdown-btn:hover{
+    opacity:0.7;
+    background-color: azure;
+}
+
+.button-group{
+    margin-top: 1rem;
+    height:2.5rem;
+    padding-top: 4px;
+    text-align: center;
+    border:none;
+    width:36rem;
+    box-shadow: 5px 5px 5px 5px lightcyan;
+    background-color:white;
+    border-radius: 10px;
+    
+}
+
+
+
+
+.user-button{
+   margin: 1rem;
+   background-color:rgb(97, 68, 242);
+   border: none;
+   border-radius: 10px;
+   padding: 11px 12px;
+
+}
+
+.user-button:hover{
+    opacity:0.8;
+    background-color:rgb(98,69,242);
+}
+
+
+.library-btn{
+    margin: 1rem;
+    border: 1px solid grey;
+    padding:10px 15px;
+    font-size: 14px;
+    border-radius:10px;
+    background-color: white;
+}
+
+.library-btn:hover{
+    opacity:0.8;
+    background-color: rgb(244, 242, 240);
+}
+
+
+.para-1{
+    text-align: center;
+    font-size: 11px;
+    color: grey;
+    margin-right: 10rem;
+    font-family: 'Poppins', sans-serif;
+   font-weight: bold;
+}
+
+.para-2{
+    display: flex;
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+    color: gray;
+    margin-left:9rem;
+    margin-top: 4rem;
+
+}
+
+.para-3{
+    margin-left: 18rem;
+}
