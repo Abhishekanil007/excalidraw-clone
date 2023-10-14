@@ -1,6 +1,8 @@
 
 
-
+*{
+    box-sizing: border-box;
+}
 
 .heading-btn{
     display: flex;
@@ -237,4 +239,25 @@
 
 .footer-btn-7:hover{
     opacity: 0.6;
+}
+
+
+@media screen and (max-width: 767px){
+.para-1{
+    margin-left: 5rem;
+}
+.para-2{
+    margin-left: 1rem;
+}
+.para-3{
+    margin-left: 3rem;
+}
+*{
+    box-sizing: border-box;
+}
+
+.footer-last-section{
+    margin-left: 5rem;
+}
+
 }
