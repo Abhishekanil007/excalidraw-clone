@@ -70,14 +70,15 @@
     color: grey;
     margin-right: 10rem;
     font-family: 'Poppins', sans-serif;
-   font-weight: bold;
+   font-weight: bolder;
 }
 
 .para-2{
     display: flex;
     font-family: 'Caveat', cursive;
-    font-size: 25px;
+    font-size: 20px;
     color: gray;
+    font-weight: bolder;
     margin-left:9rem;
     margin-top: 4rem;
 
@@ -85,4 +86,35 @@
 
 .para-3{
     margin-left: 18rem;
+}
+
+.center-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    
+}
+
+.center-logo{
+    font-family: 'Kalam', cursive;
+    font-size: 37px;
+    margin-top: 11px;
+    color:#190064;
+    padding-left: 5px;
+}
+
+.para-4{
+    font-family: 'Caveat', cursive;
+    font-size: 24px;
+    color: gray;
+    text-align: center;
+}
+
+.btn-group-center{
+    text-align: center;
+   
+}
+
+.center-group{
+    color: #9b9b9b;
 }
