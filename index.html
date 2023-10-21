@@ -37,7 +37,7 @@
         <div class="button-group btn-group-sm  " role="group" aria-label="Basic example">
             <button type="button" class="button-01 btn btn-light "><i class="fa-solid fa-unlock"></i></button>     |  
             <button type="button" class="button-02 btn btn-light "><i class="fa-regular fa-hand"></i></button>
-            <button type="button" class="button-03 btn btn-light "><i class="fa-solid fa-arrow-pointer"></i><span style="font-size: 10px;">1</span></button>
+            <button onclick="clearPage()" type="button" class="button-03 btn btn-light "><i class="fa-solid fa-arrow-pointer"></i><span style="font-size: 10px;">1</span></button>
             <button type="button" class="button-04 btn btn-light "><i class="fa-regular fa-square"></i><span style="font-size: 10px; padding:2px;">2</span></button>
             <button type="button" class="button-05 btn btn-light "><i class="fa-solid fa-diamond"></i><span style="font-size: 10px; padding:2px;">3</span></button>
             <button type="button" class="button-06 btn btn-light "><i class="fa-regular fa-circle"></i><span style="font-size: 10px; padding:2px;">4</span></button>
@@ -60,31 +60,31 @@
     </header>
 
     <!-- next section -->
-    <div>
+    <div id="content-1">
         <p class="para-1">To move canvas , hold mouse wheel or spacebar while dragging , or use the hand tool</p>
     </div>
 
     <!-- next section -->
 
-    <div class="para-2">
+    <div class="para-2" id="content-2">
         <p>Export , preferences, languages,...</p>
         <p class="para-3">Pick a tool &<br> Start drawing!</p>
     </div>
 
     <!-- logo section -->
-    <div class="center-section">
+    <div class="center-section" id="content-3">
         <img src="https://docs.excalidraw.com/img/logo.svg" alt="logo" style="width:60px; height:60px;">
         <p class="center-logo">ECALIDRAW</p>
     </div>
 
     <!-- next section -->
 
-    <div class="para-4">
+    <div class="para-4" id="content-4">
         <p>All your data is saved locally in your browser.</p>
     </div>
 
     <!-- next section -->
-<div class="btn-group-center">
+<div class="btn-group-center" id="content-5">
     <div class="center-group btn-group-vertical">
         <button type="button" class="button-1 btn btn-light"><i class="fa-regular fa-folder" style="color: #9b9b9b;"></i> <span style="padding-left: 5px; color:#9b9b9b;">Open</span><span style="color: #9b9b9b; padding-left: 10rem; font-size: 12px;"> Ctrl+O</span></button>
         <button type="button" class="button-2 btn btn-light"><i class="fa-regular fa-circle-question" style="color: #9b9b9b;"></i> <span style="padding-left: 5px; color:#9b9b9b;">Help</span> <span style="padding-left: 12rem; color:#9b9b9b;"> ?</span></button>
@@ -95,7 +95,10 @@
 
 <!-- next section -->
 
-<p class="para-5">Shortcuts &<br>help</p>
+<p class="para-5" id="content-6">Shortcuts &<br>help</p>
+
+
+
 
 
 <!-- footer -->
@@ -126,8 +129,12 @@
 </footer>
 
 
+
+
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+    <script src="./script.js"></script>
 
 </body>
 </html>
