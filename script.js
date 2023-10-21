@@ -1,5 +1,6 @@
 function clearPage(){
     //get content section by id
+    console.log('in')
     let contentSection1 = document.getElementById('content-1');
     //clear content section
     contentSection1.innerHTML = '';
